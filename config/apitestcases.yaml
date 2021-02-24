@@ -1,0 +1,13 @@
+-
+  name : /api/hhh/login           #必填
+  method: post                      #必填
+  args:  {"username":"admin","password":"123456"}    #必填
+   #一般一个项目请求头是统一的，设置一个默认值比如json，
+   #如果有部分接口的请求头不是默认的，在这填入头信息
+  headers:
+  duanyan:
+  tiqu:
+-
+  name : /api/hhh/demo
+  method: get
+  headers:
